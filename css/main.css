@@ -22,3 +22,51 @@ html {
     font-family: 'myan';
     src: url('../fonts/myanmar.ttf') format('truetype');
 }
+
+header {
+    width: 80vw;
+    margin: auto;
+}
+
+header img {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: chub, sans-serif;
+    visibility: hidden;
+    padding: 5px;
+    width: 80vw;
+    margin: auto;
+}
+
+h2 {
+    font-family: chub, sans-serif;
+    color: #7a2426;
+    font-size: 2.5em;
+    font-variant: small-caps;
+}
+
+h3 {
+    font-family: paris, serif;
+    color: #c5845a;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: myan, sans-serif;
+    color: #162b48;
+    padding: 5px;
+    margin: 5px;
+    background-color: hsla(45, 28%, 96%, 0.7);
+    font-size: 1.1em;
+}
+
+a {
+    color: #c70005;
+}
+
+a:hover {
+    color: #c5845a;
+}
