@@ -23,15 +23,7 @@ html {
     src: url('../fonts/myanmar.ttf') format('truetype');
 }
 
-header {
-    width: 80vw;
-    margin: auto;
-}
-
-header img {
-    padding-top: 30px;
-    margin-top: 30px;
-}
+/* --- Text-Based Elements --- */
 
 h1 {
     font-family: chub, sans-serif;
@@ -70,3 +62,38 @@ a {
 a:hover {
     color: #c5845a;
 }
+
+/* --- General Formatting --- */
+
+#container {
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+    position: relative;
+}
+
+section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0.75rem 1rem 1rem hsla(0, 0%, 6%, 0.5);
+    box-shadow: 0 0.75rem 1rem 1rem hsla(0, 0%, 6%, 0.5);
+    min-width: 300px;
+}
+
+/* --- Social Media 1 --- */
+
+
+/* --- Social Media 2 --- */
+
+
+/* --- Header Formatting --- */
+
+
+/* --- Header Formatting --- */
+
+
+/* --- Header Formatting --- */
+
+
+/* --- Header Formatting --- */
