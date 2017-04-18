@@ -103,6 +103,7 @@ section {
 @media (min-width: 400px) {
     section,
     #header,
+    #nav,
     #special,
     #events,
     #reservations,
@@ -110,14 +111,6 @@ section {
     #awards {
         width: 100%;
         display: block;
-    }
-
-    #profile_pic {
-        filter: grayscale(100%);
-    }
-
-    #profile_pic:hover {
-        filter: grayscale(0%);
     }
 }
 
@@ -129,33 +122,35 @@ section {
     }
 
     #reservations {
-        margin-left: 5rem;
+        margin-left: 9%;
         vertical-align: top;
         font-size: 2rem;
     }
 }
 
 @media (min-width: 1224px) {
-    #header,
     #special,
     #events,
     #reservations {
-        width: 48%;
+        width: 30%;
         display: inline-block;
     }
 
-    #special,
+    #events,
     #reservations {
-        margin-left: 2rem;
+        margin-left: 4%;
+    }
+
+    #history,
+    #awards {
+        width: 45%;
+        display: inline-block;
+    }
+
+    #awards {
+        margin-left: 9%;
         vertical-align: top;
-    }
-
-    #header {
-        background-color: #95008c;
-    }
-
-    h1 {
-        color: #ffffff;
+        font-size: 2rem;
     }
 
     #contact a {
