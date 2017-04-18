@@ -65,11 +65,21 @@ a:hover {
 
 /* --- General Formatting --- */
 
+body {
+    background-image: url('../img/paris.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
 #container {
-    margin: auto;
-    max-width: 1200px;
-    width: 90%;
-    position: relative;
+    background-image: url('../img/skin.png');
+    background-repeat: no-repeat;
+    width: 90vw;
+    margin: -10px auto 0 auto;
 }
 
 section {
