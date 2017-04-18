@@ -26,7 +26,7 @@ html {
 /* --- Text-Based Elements --- */
 
 h1 {
-    font-family: chub, sans-serif;
+    font-family: 'chub', sans-serif;
     visibility: hidden;
     padding: 5px;
     width: 80vw;
@@ -34,20 +34,20 @@ h1 {
 }
 
 h2 {
-    font-family: chub, sans-serif;
+    font-family: 'chub', sans-serif;
     color: #7a2426;
     font-size: 2.5em;
     font-variant: small-caps;
 }
 
 h3 {
-    font-family: paris, serif;
+    font-family: 'paris', serif;
     color: #c5845a;
     font-size: 1.5em;
 }
 
 p {
-    font-family: myan, sans-serif;
+    font-family: 'myan', sans-serif;
     color: #162b48;
     padding: 5px;
     margin: 5px;
@@ -96,4 +96,90 @@ section {
 /* --- Header Formatting --- */
 
 
-/* --- Header Formatting --- */
+/* --- Media Queries Formatting --- */
+
+/* -- Media Queries -- */
+
+@media (min-width: 400px) {
+    section,
+    #header,
+    #special,
+    #events,
+    #reservations,
+    #history,
+    #awards {
+        width: 100%;
+        display: block;
+    }
+
+    #profile_pic {
+        filter: grayscale(100%);
+    }
+
+    #profile_pic:hover {
+        filter: grayscale(0%);
+    }
+}
+
+@media (min-width: 768px) {
+    #events,
+    #reservations {
+        width: 45%;
+        display: inline-block;
+    }
+
+    #reservations {
+        margin-left: 5rem;
+        vertical-align: top;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1224px) {
+    #header,
+    #special,
+    #events,
+    #reservations {
+        width: 48%;
+        display: inline-block;
+    }
+
+    #special,
+    #reservations {
+        margin-left: 2rem;
+        vertical-align: top;
+    }
+
+    #header {
+        background-color: #95008c;
+    }
+
+    h1 {
+        color: #ffffff;
+    }
+
+    #contact a {
+        width: 35%;
+        display: block;
+        color: #00952a;
+        font-family: 'myan', sans-serif;
+        text-transform: lowercase;
+        background-color: #c8c7c7;
+        padding: 0.5rem;
+        margin: 0.5rem auto;
+        max-width: 400px;
+    }
+
+    #contact a:hover {
+        width: 35%;
+        display: block;
+        color: #ffffff;
+        font-family: 'myan', sans-serif;
+        text-transform: lowercase;
+        text-decoration: none;
+        background-color: #333333;
+        padding: 0.5rem;
+        margin: 0.5rem auto;
+        max-width: 400px;
+    }
+}
