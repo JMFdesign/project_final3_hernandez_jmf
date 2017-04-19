@@ -27,7 +27,7 @@ html {
 
 h1 {
     font-family: 'chub', sans-serif;
-    padding: 5px;
+    padding: 2%;
     width: 80vw;
     margin: auto;
 }
@@ -48,8 +48,8 @@ h3 {
 p {
     font-family: 'myan', sans-serif;
     color: #162b48;
-    padding: 5px;
-    margin: 5px;
+    padding: 2%;
+    margin: 2%;
     background-color: hsla(45, 28%, 96%, 0.7);
     font-size: 1.1em;
 }
@@ -111,23 +111,35 @@ section {
 
 #reservations {
     text-align: center;
-    background-color: #7a2426;
     margin-left: -2%;
     margin-right: -2%;
+    background-image: url('../img/glitter.jpg');
+    background-repeat: no-repeat;
 }
 
 #reservations h2 {
     font-family: 'paris', serif;
     font-size: 2.5rem;
     font-variant: normal;
-    color: #ffffff;
+    color: #7a2426;
 }
 
 #reservations h3 {
     font-family: 'chub', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    color: #f5ebd0;
+    color: #20334b;
+    margin-top: -12%;
+    margin-bottom: 12%;
+}
+
+#reservations a {
+    text-decoration: none;
+}
+
+.box {
+    border: 1rem solid hsla(360, 100%, 100%, 0.8);
+    background-color: hsla(360, 100%, 100%, 0.8);
 }
 
 /* --- Social Media 1 --- */
@@ -175,7 +187,7 @@ section {
     text-decoration: none;
     width: 4%;
     height: auto;
-    max-width: 75px;
+    max-width: 72%;
     min-width: 30px;
     margin-right: 2%;
 }
@@ -264,7 +276,8 @@ section {
         margin-left: 4%;
     }
 
-    header {
+    header,
+    .box  {
         margin: -2%;
     }
 
