@@ -93,7 +93,7 @@ body {
 
 header {
     padding: 2%;
-    margin: 2%;
+    margin: -3%;
     border: 1rem solid hsla(360, 100%, 100%, 0.8);
     background-color: hsla(360, 100%, 100%, 0.5);
 
@@ -261,6 +261,11 @@ section {
     #social_media,
     #social_media2 {
         text-align: right;
+    }
+
+    header {
+        margin: -2%;
+    }
 }
 
 @media (min-width: 1224px) {
