@@ -79,7 +79,7 @@ body {
     background-image: url('../img/skin.png');
     background-repeat: no-repeat;
     width: 90vw;
-    margin: -10% auto 0 auto;
+    margin: -2% auto 0 auto;
     padding: 2% 2% 0 2%;
 }
 
@@ -127,7 +127,6 @@ section {
 
 #social_media,
 #social_media2 {
-    margin: 5% auto 0 auto;
     text-align: right;
 }
 
