@@ -93,8 +93,8 @@ body {
 
 header {
     padding: 2%;
-    margin: -3%;
-    border: 1rem solid hsla(360, 100%, 100%, 0.8);
+    margin: -15%;
+    border: .5rem solid hsla(360, 100%, 100%, 0.8);
     background-color: hsla(360, 100%, 100%, 0.5);
 
 }
@@ -112,6 +112,8 @@ section {
 #reservations {
     text-align: center;
     background-color: #7a2426;
+    margin-left: -2%;
+    margin-right: -2%;
 }
 
 #reservations h2 {
@@ -211,30 +213,7 @@ section {
 
 /* -- Media Queries -- */
 
-@media (min-width: 400px) {
-    section,
-    #header,
-    #nav,
-    #special,
-    #events,
-    #reservations,
-    #history,
-    #awards {
-        width: 100%;
-        display: block;
-    }
-
-    body {
-        background-image: url('../img/eiffel.jpg');
-        width: 100vw;
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-attachment: fixed;
-        overflow-x: hidden;
-}
-
-@media (min-width: 768px) {
+@media (min-width: 500px) {
     #events,
     #reservations {
         width: 45%;
@@ -264,11 +243,12 @@ section {
     }
 
     header {
-        margin: -2%;
+        margin: -4%;
+        border: 1rem solid hsla(360, 100%, 100%, 0.8);
     }
 }
 
-@media (min-width: 1224px) {
+@media (min-width: 872px) {
     #special,
     #events,
     #reservations,
@@ -282,6 +262,10 @@ section {
     #reservations,
     .thirds:nth-last-child(2) {
         margin-left: 4%;
+    }
+
+    header {
+        margin: -2%;
     }
 
     #history,
