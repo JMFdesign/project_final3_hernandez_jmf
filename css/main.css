@@ -83,6 +83,11 @@ body {
     padding: 2% 2% 0 2%;
 }
 
+#content {
+    padding: 2%;
+    background-color: hsla(43, 67%, 84%, 0.67);
+}
+
 header {
     background-color: #ffffff;
     padding: 2%;
@@ -96,10 +101,7 @@ header img {
 
 section {
     padding: 2rem;
-    background-color: hsla(43, 67%, 84%, 0.67);
-    /*-webkit-box-shadow: 0 0.25rem 0.5rem 0.5rem hsla(0, 0%, 6%, 0.1);
-    box-shadow: 0 0.25rem 0.5rem 0.5rem hsla(0, 0%, 6%, 0.1);
-    min-width: 300px;*/
+
 }
 
 #reservations {
