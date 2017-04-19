@@ -66,7 +66,7 @@ a:hover {
 /* --- General Formatting --- */
 
 body {
-    background-image: url('../img/paris.jpg');
+    background-image: url('../img/eiffel.jpg');
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
@@ -80,22 +80,53 @@ body {
     background-repeat: no-repeat;
     width: 90vw;
     margin: -10% auto 0 auto;
+    padding: 2% 2% 0 2%;
+}
+
+header {
+    background-color: #ffffff;
     padding: 2%;
 }
 
+header img {
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+}
+
 section {
-    margin-top: 2rem;
     padding: 2rem;
     background-color: hsla(43, 67%, 84%, 0.67);
-    -webkit-box-shadow: 0 0.25rem 0.5rem 0.5rem hsla(0, 0%, 6%, 0.1);
+    /*-webkit-box-shadow: 0 0.25rem 0.5rem 0.5rem hsla(0, 0%, 6%, 0.1);
     box-shadow: 0 0.25rem 0.5rem 0.5rem hsla(0, 0%, 6%, 0.1);
-    min-width: 300px;
+    min-width: 300px;*/
+}
+
+#reservations {
+    text-align: center;
+    background-color: #7a2426;
+}
+
+#reservations h2 {
+    font-family: 'paris', serif;
+    font-size: 2.5rem;
+    font-variant: normal;
+    color: #ffffff;
+}
+
+#reservations h3 {
+    font-family: 'chub', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f5ebd0;
 }
 
 /* --- Social Media 1 --- */
+
 #social_media,
 #social_media2 {
     margin: 5% auto 0 auto;
+    text-align: right;
 }
 
 #social_media ul,
@@ -108,7 +139,7 @@ section {
 #social_media ul li,
 #social_media2 ul li {
     display: inline-block;
-    width: 20%;
+    width: 15%;
     margin-left: 5%;
     text-decoration: none;
 }
@@ -130,6 +161,11 @@ section {
     -webkit-filter: invert(0%);
     filter: invert(0%);
     text-decoration: none;
+    width: 4%;
+    height: auto;
+    max-width: 75px;
+    min-width: 30px;
+    margin-right: 2%;
 }
 
 #social_media a img:hover,
@@ -144,16 +180,6 @@ section {
     text-decoration: none;
 }
 
-#social_media a img,
-#social_media2 a img, {
-    width: 10%;
-    height: auto;
-    max-width: 75px;
-    min-width: 40px;
-    margin-right: 5%;
-}
-
-
 /* --- Social Media 2 --- */
 
 
@@ -163,10 +189,15 @@ section {
 /* --- Header Formatting --- */
 
 
-/* --- Header Formatting --- */
+/* --- Footer Formatting --- */
 
+#footer {
+    background-color: #ffffff;
+    padding-bottom: 5%;
+    margin-bottom: 0;
 
-/* --- Media Queries Formatting --- */
+}
+
 
 /* -- Media Queries -- */
 
@@ -182,6 +213,15 @@ section {
         width: 100%;
         display: block;
     }
+
+    body {
+        background-image: url('../img/eiffel.jpg');
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+        overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -196,18 +236,31 @@ section {
         vertical-align: top;
         font-size: 2rem;
     }
+
+    body {
+        background-image: url('../img/drapes2.jpg');
+        width: 100vw;
+        height: auto;
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-attachment: fixed;
+        overflow-x: hidden;
 }
 
 @media (min-width: 1224px) {
     #special,
     #events,
-    #reservations {
+    #reservations,
+    .thirds {
         width: 30%;
         display: inline-block;
+        text-align: center;
     }
 
     #events,
-    #reservations {
+    #reservations,
+    .thirds:nth-last-child(2) {
         margin-left: 4%;
     }
 
@@ -221,5 +274,9 @@ section {
         margin-left: 9%;
         vertical-align: top;
         font-size: 2rem;
+    }
+
+    body {
+        background-image: url('../img/paris.jpg');
     }
 }
