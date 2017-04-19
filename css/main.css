@@ -27,7 +27,6 @@ html {
 
 h1 {
     font-family: 'chub', sans-serif;
-    visibility: hidden;
     padding: 5px;
     width: 80vw;
     margin: auto;
@@ -63,6 +62,10 @@ a:hover {
         color: #c5845a;
 }
 
+.hidden_title {
+    display: none;
+}
+
 /* --- General Formatting --- */
 
 body {
@@ -89,14 +92,16 @@ body {
 }
 
 header {
-    background-color: #ffffff;
     padding: 2%;
+    margin: 2%;
+    border: 1rem solid hsla(360, 100%, 100%, 0.8);
+    background-color: hsla(360, 100%, 100%, 0.5);
+
 }
 
 header img {
-    width: 85%;
+    width: 100%;
     height: auto;
-    margin-left: 7%;
 }
 
 section {
@@ -124,6 +129,10 @@ section {
 }
 
 /* --- Social Media 1 --- */
+
+#social_media {
+    margin-top: -2%;
+}
 
 #social_media,
 #social_media2 {
