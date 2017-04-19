@@ -35,14 +35,14 @@ h1 {
 h2 {
     font-family: 'chub', sans-serif;
     color: #7a2426;
-    font-size: 2.5em;
+    font-size: 2rem;
     font-variant: small-caps;
 }
 
 h3 {
     font-family: 'paris', serif;
     color: #c5845a;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 p {
@@ -204,8 +204,45 @@ section {
     text-decoration: none;
 }
 
-/* --- Social Media 2 --- */
+/* --- Navigation Formatting --- */
 
+nav {
+    text-align: center;
+    width: 104%;
+    margin-left: -2%;
+    padding: 0;
+    background-color: #7a2426;
+}
+
+nav ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    padding: 2%;
+    text-decoration: none;
+    transform: scale(1);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'chub', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    font-family: 'chub', sans-serif;
+    text-transform: uppercase;
+    color: #ffe680;
+}
 
 /* --- Header Formatting --- */
 
