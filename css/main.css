@@ -136,7 +136,7 @@ section {
 
 #social_media,
 #social_media2 {
-    text-align: right;
+    text-align: center;
 }
 
 #social_media ul,
@@ -256,6 +256,11 @@ section {
         background-position: left top;
         background-attachment: fixed;
         overflow-x: hidden;
+    }
+
+    #social_media,
+    #social_media2 {
+        text-align: right;
 }
 
 @media (min-width: 1224px) {
