@@ -52,12 +52,13 @@ h4,
     color: #333333;
 }
 
-p {
+p,
+#awards ul li {
     font-family: 'myan', sans-serif;
     color: #162b48;
     padding: 2%;
     margin: 2%;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 a {
