@@ -125,6 +125,12 @@ section {
     margin: auto;
 }
 
+.iframe {
+    padding: 2%;
+    border: 1rem solid hsla(0, 0%, 18%, 0.1);
+    background-color: hsla(360, 100%, 100%, 0.8);
+}
+
 #special {
     background-image: url('../img/dish_ratatouille.png');
     background-repeat: no-repeat;
